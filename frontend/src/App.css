@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f7fb;
+}
+
+.app {
+  max-width: 900px;
+  margin: auto;
+  padding: 30px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.header h1 {
+  color: #1f3c88;
+  margin-bottom: 8px;
+}
+
+.header p {
+  color: gray;
+  font-size: 18px;
+}
+
+.chat-container {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.input-section {
+  display: flex;
+  gap: 10px;
+}
+
+.input-section input {
+  flex: 1;
+  padding: 14px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.input-section button {
+  padding: 14px 20px;
+  cursor: pointer;
+  background: #1f3c88;
+  color: white;
+  border: none;
+  border-radius: 6px;
+}
+
+.input-section button:hover:not(:disabled) {
+  background: #16306f;
+}
+
+.input-section button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.suggestions {
+  margin-top: 20px;
+}
+
+.suggestions button {
+  margin: 6px;
+  padding: 10px 16px;
+  border: none;
+  background: #e8eefc;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.suggestions button:hover {
+  background: #d7e3fc;
+}
+
+.response-box {
+  margin-top: 30px;
+  padding: 20px;
+  background: #f8f9fc;
+  border-radius: 10px;
+  min-height: 220px;
+}
+
+.response-box h3 {
+  margin-top: 0;
+}
+
+.response-box p {
+  white-space: pre-wrap;
+  line-height: 1.7;
+}
