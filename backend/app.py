@@ -13,12 +13,13 @@ from ai_agent import ask_gpt
 
 app = FastAPI()
 
-# Enable CORS for React frontend
+# Enable CORS
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173",
         "http://127.0.0.1:5173",
+        "https://monday-bi-agent-1-1ayt.onrender.com",
     ],
     allow_credentials=True,
     allow_methods=["*"],
