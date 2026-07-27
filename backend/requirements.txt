@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+pandas
+requests
+python-dotenv
+transformers
+torch
+huggingface-hub
+numpy
