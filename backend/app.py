@@ -14,6 +14,7 @@ from ai_agent import ask_gpt
 app = FastAPI()
 
 # Enable CORS
+# Enable CORS
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
@@ -25,7 +26,6 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
 
 class QueryRequest(BaseModel):
     question: str
